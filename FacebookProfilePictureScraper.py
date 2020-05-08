@@ -5,7 +5,7 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.chrome.options import Options
 
 options = Options()  # Initialise options class to set options for the driver
-options.headless = False  # Change the value to hide or show the browser
+options.headless = True  # Change the value to hide or show the browser
 options.add_argument("--disable-notifications")  # Disable notifications
 path = chromedriver_autoinstaller.install()  # Installs chromedriver.exe latest version for chrome and returns path
 driver = webdriver.Chrome(executable_path=path, options=options)  # Initialise the driver
