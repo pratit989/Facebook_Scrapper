@@ -61,9 +61,9 @@ def username_generator_function(function_index: int, output_string: str):
 if __name__ == '__main__':
     # The email and password must be of a account without 2 factor authentication (2fa) enabled
     # input_email = input("Enter your email: ")  # Get the username
-    input_email = "pratittodkar@gmail.com"
+    input_email = ""
     # input_password = input("Enter your password: ")  # Get the password
-    input_password = "9892224543"
+    input_password = ""
     login(input_email, input_password)  # Call the login function
     # Comment out the main function till this point if you just want to scrape public accounts
     # Set the max string length of the username generated
